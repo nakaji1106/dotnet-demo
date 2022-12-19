@@ -8,5 +8,5 @@
 ・ dotnetapp<br>
 https://github.com/dotnet/dotnet-docker/tree/main/samples/dotnetapp
 
-・ BlazorServerSignalRApp<>br
+・ BlazorServerSignalRApp<br>
 https://github.com/dotnet/blazor-samples/tree/main/7.0/BlazorServerSignalRApp
