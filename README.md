@@ -5,8 +5,8 @@
 
 詳細な情報は以下のリンク先を参照ください。
 
-・ dotnetapp
+・ dotnetapp<br>
 https://github.com/dotnet/dotnet-docker/tree/main/samples/dotnetapp
 
-・ BlazorServerSignalRApp
+・ BlazorServerSignalRApp<>br
 https://github.com/dotnet/blazor-samples/tree/main/7.0/BlazorServerSignalRApp
