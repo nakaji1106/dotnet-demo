@@ -4,9 +4,7 @@
 @using System.Diagnostics
 @{
     var hostName = System.Net.Dns.GetHostName();
-    var ipList = System.Net.Dns.GetHostAddressesAsync(hostName);
     System.Diagnostics.Debug.WriteLine(hostName);
-    System.Diagnostics.Debug.WriteLine(ipList);
 
     const long Mebi = 1024 * 1024;
     const long Gibi = Mebi * 1024;
@@ -89,21 +87,6 @@
         <tr>
             <td>Host name</td>
             <td>@hostName</td>
-        </tr>
-        <tr>
-            <td style="vertical-align: top">Server IP address</td>
-            <td>
-		XXXX.XXXX.XXXX.XXXX
-                @{
-		    <br />
-                    //foreach (var ip in ipList)
-                    //{
-                    //    @ip
-                    //    <br />
-                    //}
-                }
-
-            </td>
         </tr>
     </table>
 </div>
